@@ -2,8 +2,8 @@
 NUTN CSIE 60-second Promotional Video
 
 ## Team Members
-- Name: to be added
-- Student ID: to be added
+- Name: Pei-Jia Chung
+- Student ID: S11259008
 - Course: Multimedia Systems
 
 ## Project Summary
