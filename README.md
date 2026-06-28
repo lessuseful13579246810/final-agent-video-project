@@ -89,3 +89,13 @@ Required length: 55-65 seconds.
 - [ ] Final report PDF is included.
 - [ ] GitHub repository is public.
 - [ ] GitHub repository URL is submitted to Ecourse.
+
+## OpenClaw Environment Evidence
+OpenClaw CLI was installed and tested inside an Ubuntu VirtualBox virtual machine.
+
+Evidence files:
+- `traces/openclaw_version.txt`
+- `traces/openclaw_help.txt`
+- `traces/openclaw_status.txt`
+
+The project uses OpenClaw as the required agent workflow platform and demonstrates the workflow through zero-paid-token mock/stub execution.

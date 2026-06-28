@@ -131,3 +131,13 @@ The GitHub repository should be set to Public and the full repository URL should
 This project shows that a multi-agent workflow is useful not only for generating content, but also for controlling the production process. By separating planning, scriptwriting, visual design, review, and finalization, the workflow becomes easier to check, revise, and reproduce.
 
 The main limitation is that the current workflow uses mock/stub execution instead of fully autonomous agents. However, this approach is safer, requires no paid token, avoids private account risks, and still demonstrates the key ideas of controlled multi-agent collaboration.
+
+## 11. OpenClaw Environment Evidence
+
+OpenClaw CLI was installed and tested inside an Ubuntu VirtualBox virtual machine. The installation evidence is stored in the `traces/` folder:
+
+- `traces/openclaw_version.txt`
+- `traces/openclaw_help.txt`
+- `traces/openclaw_status.txt`
+
+This project uses OpenClaw as the required agent workflow platform. Because the assignment allows zero-paid-token completion, the multi-agent workflow is demonstrated through controlled mock/stub execution, structured JSON handoff files, and an execution trace.
