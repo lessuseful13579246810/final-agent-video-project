@@ -1,0 +1,23 @@
+1
+00:00:00,000 --> 00:00:05,000
+From learning to creating: start with computer science.
+
+2
+00:00:05,000 --> 00:00:15,000
+National University of Tainan CSIE.
+
+3
+00:00:15,000 --> 00:00:30,000
+Programming, AI, data, systems, networks, and practice.
+
+4
+00:00:30,000 --> 00:00:45,000
+Teamwork, projects, demos, and problem solving.
+
+5
+00:00:45,000 --> 00:00:55,000
+Study in Tainan, build your future.
+
+6
+00:00:55,000 --> 00:01:00,000
+NUTN CSIE: learn steadily, create bravely.

@@ -1,0 +1,32 @@
+{
+  "agent": "Finalizer Agent",
+  "input_sources": [
+    "handoff/01_planner_output.json",
+    "handoff/02_script_output.json",
+    "handoff/03_visual_output.json",
+    "handoff/04_reviewer_feedback.json"
+  ],
+  "final_video_plan": {
+    "target_length": "60 seconds",
+    "accepted_range": "55-65 seconds",
+    "format": "MP4",
+    "required_audio_text": "subtitle or narration, preferably both",
+    "editing_tool": "free editor such as CapCut, Clipchamp, Kdenlive, or Shotcut"
+  },
+  "revision_applied": [
+    "Avoided unverified factual claims.",
+    "Used self-made or openly licensed materials only.",
+    "Added privacy and portrait-rights warnings.",
+    "Prepared structured handoff files for traceability."
+  ],
+  "final_checklist": [
+    "Export final video as outputs/final_video.mp4",
+    "Add subtitles as outputs/subtitles.srt if available",
+    "Complete asset_sources.md",
+    "Complete execution_trace.md",
+    "Complete single_agent_baseline.md",
+    "Write final report PDF",
+    "Set GitHub repository to Public",
+    "Submit full GitHub repo URL to Ecourse"
+  ]
+}

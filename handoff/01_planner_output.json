@@ -1,0 +1,54 @@
+{
+  "agent": "Planner Agent",
+  "project_title": "NUTN CSIE 60-second Promotional Video",
+  "target_audience": ["high school students", "new students", "parents"],
+  "core_message": "Study computer science in Tainan and build a practical future through solid learning, teamwork, and hands-on projects.",
+  "video_length_seconds": 60,
+  "platform_choice": "OpenClaw or Hermes Agent with zero-paid-token mock workflow",
+  "scenes": [
+    {
+      "scene_id": 1,
+      "time_range": "0-5",
+      "purpose": "opening hook",
+      "content_goal": "Connect technology learning with future possibilities."
+    },
+    {
+      "scene_id": 2,
+      "time_range": "5-15",
+      "purpose": "department introduction",
+      "content_goal": "Introduce National University of Tainan Department of Computer Science and Information Engineering."
+    },
+    {
+      "scene_id": 3,
+      "time_range": "15-30",
+      "purpose": "learning features",
+      "content_goal": "Show programming, AI, data, systems, networks, and practical training."
+    },
+    {
+      "scene_id": 4,
+      "time_range": "30-45",
+      "purpose": "student development",
+      "content_goal": "Show projects, teamwork, discussion, demos, and presentation."
+    },
+    {
+      "scene_id": 5,
+      "time_range": "45-55",
+      "purpose": "learning atmosphere",
+      "content_goal": "Show classmates, teachers, campus, and learning environment without privacy risks."
+    },
+    {
+      "scene_id": 6,
+      "time_range": "55-60",
+      "purpose": "closing",
+      "content_goal": "End with department name and slogan."
+    }
+  ],
+  "assigned_agents": {
+    "script_agent": "Write narration and subtitles based on the 6-scene outline.",
+    "visual_agent": "Create storyboard, shot list, and asset requirements.",
+    "reviewer_agent": "Check assignment compliance, copyright, privacy, truthfulness, and video length.",
+    "finalizer_agent": "Integrate revised outputs into final production checklist."
+  },
+  "asset_policy": "Self-made or openly licensed materials only. Avoid unauthorized logos, music, private information, and recognizable people without consent.",
+  "review_items": ["length", "truthfulness", "copyright", "portrait rights", "privacy", "zero-paid-token feasibility"]
+}

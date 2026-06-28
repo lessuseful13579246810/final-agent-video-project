@@ -1,0 +1,36 @@
+{
+  "agent": "Reviewer Agent",
+  "input_sources": [
+    "handoff/01_planner_output.json",
+    "handoff/02_script_output.json",
+    "handoff/03_visual_output.json"
+  ],
+  "assignment_check": {
+    "uses_required_platform": "Planned as OpenClaw or Hermes Agent mock workflow",
+    "minimum_agents": "Pass: 5 agents designed",
+    "structured_handoff": "Pass: JSON handoff files created",
+    "video_length": "Pass if final video is edited to 55-65 seconds",
+    "short_video_required": "Pending: final MP4 must be exported",
+    "baseline_comparison": "Pending: create baseline/single_agent_baseline.md",
+    "execution_trace": "Pending: create traces/execution_trace.md",
+    "zero_paid_token": "Pass: mock/offline workflow declared"
+  },
+  "risk_list": [
+    {
+      "risk": "Using recognizable people without consent",
+      "severity": "high",
+      "revision": "Use non-identifiable shots, back views, hands-only shots, or obtain consent."
+    },
+    {
+      "risk": "Using copyrighted music",
+      "severity": "high",
+      "revision": "Use no music, self-made music, or openly licensed music with attribution."
+    },
+    {
+      "risk": "Making unverified claims about the department",
+      "severity": "medium",
+      "revision": "Avoid rankings, employment rates, facilities, or admission claims unless cited from official sources."
+    }
+  ],
+  "approval_status": "Approved with revisions before final video export"
+}

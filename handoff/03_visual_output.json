@@ -1,0 +1,45 @@
+{
+  "agent": "Visual Agent",
+  "input_sources": ["handoff/01_planner_output.json", "handoff/02_script_output.json"],
+  "visual_style": "clean, bright, realistic campus and study atmosphere",
+  "shot_list": [
+    {
+      "scene_id": 1,
+      "time_range": "0-5",
+      "visual_plan": "Fast shots of laptop keyboard, code editor, and campus walkway.",
+      "asset_needed": ["self-recorded laptop shot", "self-recorded campus B-roll"]
+    },
+    {
+      "scene_id": 2,
+      "time_range": "5-15",
+      "visual_plan": "Show department name as text overlay with classroom or campus background.",
+      "asset_needed": ["self-made title slide", "campus exterior footage"]
+    },
+    {
+      "scene_id": 3,
+      "time_range": "15-30",
+      "visual_plan": "Show programming screen, notebook, simple AI/data/system keywords as text overlays.",
+      "asset_needed": ["screen recording", "self-made keyword graphics"]
+    },
+    {
+      "scene_id": 4,
+      "time_range": "30-45",
+      "visual_plan": "Show group discussion from behind or hands only, whiteboard, project demo screen.",
+      "asset_needed": ["consented group shot or non-identifiable hands-only shot", "demo screen recording"]
+    },
+    {
+      "scene_id": 5,
+      "time_range": "45-55",
+      "visual_plan": "Show quiet study scene, hallway, campus life, or classroom materials.",
+      "asset_needed": ["self-recorded study B-roll"]
+    },
+    {
+      "scene_id": 6,
+      "time_range": "55-60",
+      "visual_plan": "Closing title with department name and slogan.",
+      "asset_needed": ["self-made closing slide"]
+    }
+  ],
+  "copyright_policy": "Use self-made footage, self-made slides, system fonts, and no copyrighted music unless openly licensed.",
+  "privacy_policy": "Avoid close-up faces unless written consent is obtained."
+}

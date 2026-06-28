@@ -1,0 +1,45 @@
+{
+  "agent": "Script Agent",
+  "input_source": "handoff/01_planner_output.json",
+  "tone": "clear, positive, student-friendly",
+  "narration_script": [
+    {
+      "scene_id": 1,
+      "time_range": "0-5",
+      "narration": "Technology is changing the world, and learning begins with one practical step.",
+      "subtitle": "From learning to creating: start with computer science."
+    },
+    {
+      "scene_id": 2,
+      "time_range": "5-15",
+      "narration": "At the Department of Computer Science and Information Engineering, National University of Tainan, students build foundations in programming, systems, and problem solving.",
+      "subtitle": "National University of Tainan CSIE"
+    },
+    {
+      "scene_id": 3,
+      "time_range": "15-30",
+      "narration": "Courses connect software, AI, data, networks, and hands-on practice, helping students turn ideas into working projects.",
+      "subtitle": "Programming, AI, data, systems, networks, and practice"
+    },
+    {
+      "scene_id": 4,
+      "time_range": "30-45",
+      "narration": "Through discussion, teamwork, demos, and project development, students learn not only how to code, but how to communicate and solve real problems.",
+      "subtitle": "Teamwork, projects, demos, and problem solving"
+    },
+    {
+      "scene_id": 5,
+      "time_range": "45-55",
+      "narration": "In Tainan, learning is close to daily life, and every project becomes part of a future path.",
+      "subtitle": "Study in Tainan, build your future"
+    },
+    {
+      "scene_id": 6,
+      "time_range": "55-60",
+      "narration": "National University of Tainan CSIE: learn steadily, create bravely.",
+      "subtitle": "NUTN CSIE"
+    }
+  ],
+  "estimated_length_seconds": 60,
+  "revision_note": "The script avoids unverified claims about ranking, employment rate, facilities, or admission data."
+}
