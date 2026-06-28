@@ -1,0 +1,40 @@
+OpenClaw status
+
+Overview
+┌──────────────────────┬───────────────────────────────────────────────────────────────────────────────────────────────┐
+│ Item                 │ Value                                                                                         │
+├──────────────────────┼───────────────────────────────────────────────────────────────────────────────────────────────┤
+│ OS                   │ linux 7.0.0-27-generic (x64) · node 22.22.1                                                   │
+│ Dashboard            │ http://127.0.0.1:18789/                                                                       │
+│ Tailscale exposure   │ off                                                                                           │
+│ Channel              │ stable (default)                                                                              │
+│ Update               │ pkg                                                                                           │
+│ Gateway              │ local · ws://127.0.0.1:18789 (local loopback) · unreachable                                   │
+│ Gateway service      │ systemd user not installed                                                                    │
+│ Node service         │ systemd user not installed                                                                    │
+│ Agents               │ 0 · no workspaces bootstrapping · sessions 0                                                  │
+│ Memory               │ enabled (plugin memory-core) · not checked                                                    │
+│ Plugin compatibility │ none                                                                                          │
+│ Probes               │ skipped (use --deep)                                                                          │
+│ Events               │ none                                                                                          │
+│ Tasks                │ none                                                                                          │
+│ Heartbeat            │ disabled                                                                                      │
+│ Sessions             │ 0 active · default unknown · unknown                                                          │
+└──────────────────────┴───────────────────────────────────────────────────────────────────────────────────────────────┘
+
+Security audit
+Skipped in fast status. Full report: openclaw security audit
+Deep probe: openclaw status --deep
+
+Channels
+No channels configured
+
+Sessions
+No sessions
+
+FAQ: https://docs.openclaw.ai/faq
+Troubleshooting: https://docs.openclaw.ai/troubleshooting
+Next steps:
+  Need to share?      openclaw status --all
+  Need to debug live? openclaw logs --follow
+  Fix reachability first: openclaw gateway probe
